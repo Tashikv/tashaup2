@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto.ttf);
+}
+* {
+    font-family: "Roboto";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header .conteiner {
+    align-items: center;
+    justify-content: space-between;
+    width: 1920px;
+    /* height: 1080px; */
+    background: url(../img/Group\ 136.png);
+   
+}
+header .logo{
+    background: url(../img/Callmar\ 1\ 1.png);
+    width: 114px;
+    height: 113px;
+    margin-left: 202px;
+    margin-top: 75px;
+}
+header .shapka{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .knopki{
+    display: flex;
+    justify-content: right;
+    height: 43px;
+    gap: 2px;
+    margin-top: 109px;
+    margin-right: 201px;
+}
+header button{
+    width: 184px;
+    height: 41px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+header .knopa1{
+    width: 152px;
+}
+header .osminog{
+    background: url(../img/osminog.png);
+    width: 1331px;
+    height: 605px;
+    margin-left: 234px;
+    margin-top: -127px;
+}
+header .text{
+    text-align: center;
+    margin-left: 43px;
+    margin-top: 3px;
+}
+header h1{
+    color: white;
+    font-size: 64px;
+}
+header p{
+    color: white;
+    font-size: 24px;
+    margin-top: 38px;
+    line-height: 34px;
+}
+header .knopka button{
+    width: 362px;
+    height: 75px;
+    font-size: 36px;
+    margin-top: 73px;
+    text-align: center;
+    margin-right: 41px;
+    margin-bottom: 80px;
+}
+
+/*начало start*/
+.start .conteiner{
+    background: 
+    url("../img/aqvalang.png") no-repeat 98% 4%,
+    url(../img/bubble_big.png) no-repeat 4% 11%,
+    url(../img/bubble23.png) no-repeat 5% 22%,
+    url(../img/bubble22.png) no-repeat 10% 26%,
+    url(../img/bubble21.png) no-repeat 59% 34%,
+    url(../img/Rectangle\ 38.png);
+    width: 1920px;
+    /* height: 4185px; */
+}
+.start .bloki{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    border: none;
+    
+}
+.start .blok1{
+    width: 738px;
+    height: 308px;
+    background-color: #523A64;
+    margin-top: 461px;
+    margin-left: 200px;
+}
+.start .blok2{
+    width: 738px;
+    height: 308px;
+    background-color: #523A64;
+    margin-top: 689px;
+    margin-left: -2px;
+}
+.start .blok3{
+    width: 738px;
+    height: 308px;
+    background-color: #523A64;
+    margin-top: -110px;
+    margin-left: 198px;
+}
+.start .blok4{
+    width: 738px;
+    height: 308px;
+    background-color: #523A64;
+    margin-top: 117px;
+}
+
+.start .bloki p{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 27px;
+}
+.start .bloki h3{
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.start .bloki h2{
+    color: #944B6E;
+    font-size: 96px;
+    padding: 42px 0;
+}
+.start .text{
+    text-align: left;
+    margin-left: 117px;
+    margin-top: -112px;
+}
+.start .aqvalang{
+    background: url(../img/aqvalang2.png);
+    width: 551px;
+    height: 387px;
+    margin-top:-198px;
+    margin-left: 16px;
+}
+.start .oglav h2{
+    color: white;
+    font-size: 64px;
+    width: 652px;
+    margin-left: 201px;
+    margin-top: 154px;
+    line-height: 93px;
+}
+.start .pryamo{
+    background: url(../img/Rectangle\ 29.png);
+    width: 1920px;
+    height: 668px;
+    margin-top: 69px;
+}
+.start .pysk{
+    background: url(../img/Group\ 1.png);
+    width: 252px;
+    height: 252px;
+    margin: auto;
+    margin-top: -458px;
+}
+.start .podlodka{
+    background: url(../img/podlodka.png);
+    width: 373px;
+    height: 316px;
+    margin-left: auto;
+    margin-top: 170px;
+}
+.start .free{
+    background:url(../img/fon1.png);
+    width: 597px;
+    height: 599px;
+    margin-top: -20px;
+    margin-left: 233px;
+}
+ .free h3{
+    color: white;
+    font-size: 48px;
+    margin-left: 162px; 
+    margin-top: 79px;
+    line-height:68px;
+}
+ .free p{
+    color: white;
+    font-size: 24px;
+    padding-top: 47px;
+    margin-left: 161px;
+    line-height: 35px;
+}
+.mony h3{
+    color: white;
+    font-size: 48px;
+    margin-left: 162px; 
+    margin-top: 91px;
+    line-height:68px;
+}
+.mony p{
+    color: white;
+    font-size: 24px;
+    padding-top: 47px;
+    margin-left: 151px;
+    line-height: 35px;
+}
+.start button{
+    width: 360px;
+    height: 75px;
+    color: white;
+    font-size: 36px;
+    margin-left: 164px;
+    margin-top: 102px;
+}
+.start .textfree{
+    display: flex;
+    align-items: center;
+    gap: 163px;
+}
+.start .mony{
+    background: url(../img/fon2.png);
+    width: 603px;
+    height: 653px;
+    margin-top: 15px;
+}
+.start .fish{
+    background: url(../img/Group\ 38.png);
+    width: 353px;
+    height: 274px;
+    margin-top: -107px;
+}
+.start .dno{
+    background: url(../img/fon_dno.png);
+    width: 1920px;
+    height: 452px;
+    margin-top: -54px;
+}
+
+
